@@ -12,7 +12,7 @@ The original extension does not support TypeScript files for some reason. At fir
 * Support for finding `part` styling in CSS files
 * Support for `part` lookup in HTML
 
-* [Original repository](https://github.com/zignd/HTML-CSS-Class-Completion)
+[Original repository: https://github.com/zignd/HTML-CSS-Class-Completion](https://github.com/zignd/HTML-CSS-Class-Completion)
  
 
 ## Features
