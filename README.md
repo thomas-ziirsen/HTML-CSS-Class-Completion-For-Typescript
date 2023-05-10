@@ -5,7 +5,7 @@ A Visual Studio Code extension that provides CSS class name completion for the H
 ![](https://i.imgur.com/5crMfTj.gif)
 
 ## Why republish this package?
-The original extension does not support TypeScript files for some reason. At first I though about making the change and creating a Pull Request for the Author, but bhen looking at the bugs and pull request for the repository, it become apparent that it's not supportet anymore. The last commit was december 2020.
+The original extension does not support TypeScript files for some reason. At first I though about making the change and creating a pull request for the author, but when looking at the bugs and pull request for the repository, it become apparent that it's not supportet anymore. The last commit was december 2020.
 
 ## My additions are the following:
 * Support for .ts files
