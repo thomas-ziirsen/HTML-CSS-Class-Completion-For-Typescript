@@ -1,6 +1,6 @@
 # IntelliSense for CSS class and part names in HTML
 
-A Visual Studio Code extension that provides CSS class name completion for the HTML `class` attribute based on the definitions found in your workspace or external files referenced through the `link` element.
+A Visual Studio Code extension that provides CSS class and paort name completion for the HTML `class` and `part` attribute based on the definitions found in your workspace or external files referenced through the `link` element.
 
 ![](https://i.imgur.com/5crMfTj.gif)
 
