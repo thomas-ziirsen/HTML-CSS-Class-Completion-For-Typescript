@@ -16,6 +16,7 @@ A Visual Studio Code extension that provides CSS class name completion for the H
 * PHP
 * Laravel (Blade)
 * JavaScript
+* TypeScript (.ts)
 * JavaScript React (.jsx)
 * TypeScript React (.tsx)
 * Vue (.vue) [requires [octref.vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)]
