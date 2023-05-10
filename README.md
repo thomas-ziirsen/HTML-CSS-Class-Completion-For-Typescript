@@ -4,8 +4,19 @@ A Visual Studio Code extension that provides CSS class name completion for the H
 
 ![](https://i.imgur.com/5crMfTj.gif)
 
+## Why republish this package?
+The original extension does not support TypeScript files for some reason. At first I though about making the change and creating a Pull Request for the Author, but bhen looking at the bugs and pull request for the repository, it become apparent that it's not supportet anymore. The last commit was december 2020.
+
+## My additions are the following:
+* Support for .ts files
+* Support for finding `part` styling in CSS files
+* Support for `part` lookup in HTML
+
+* [Original repository](https://github.com/zignd/HTML-CSS-Class-Completion)
+ 
+
 ## Features
-* Gives you autocompletion for CSS class definitions that can be found in your workspace (defined in CSS files or the in the file types listed in the Supported Language Modes section);
+* Gives you autocompletion for CSS class and part definitions that can be found in your workspace (defined in CSS files or the in the file types listed in the Supported Language Modes section);
 * Supports external stylesheets referenced through `link` elements in HTML files;
 * Command to manually re-cache the class definitions used in the autocompletion;
 * User Settings to override which folders and files should be considered or excluded from the caching process.
@@ -44,6 +55,11 @@ The language modes listed in the previous section are already defined as default
 ## Contributions
 You can request new features and contribute to the extension development on its [repository on GitHub](https://github.com/Zignd/HTML-CSS-Class-Completion/issues). Look for an issue you're interested in working on, comment on it to let me know you're working on it and submit your pull request! :D
 
+## What's new in version 1.30 (Dec 19, 2023)
+* Support for .ts files
+* Support for finding `part` styling in CSS files
+* Support for `part` lookup in HTML
+
 ## What's new in version 1.20 (Dec 19, 2020)
 * Settings to allow users to specify which language modes will have autocompletion;
 * Fix interpretation of classes defined inside media queries.
@@ -67,7 +83,7 @@ You can change the folders and files the extension will consider or exclude duri
 
 Emmet support comes disabled by default, the reason behind this choice is because it the current implementation simply triggers completion when you type a "." (period) and this behavior might be considered a little annoying, but it might change in the future.
 
-Currently it supports the following languages (those are [language identifier](https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers)): "html", "razor", "php", "blade", "vue", "twig", "markdown", "erb", "handlebars", "ejs", "typescriptreact", "javascript", "javascriptreact".
+Currently it supports the following languages (those are [language identifier](https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers)): "html", "razor", "php", "blade", "vue", "twig", "markdown", "erb", "handlebars", "ejs", "typescriptreact", "javascript", "typescript", "javascriptreact".
 
 * `"html-css-class-completion.enableEmmetSupport"` (default: `false`)
 
